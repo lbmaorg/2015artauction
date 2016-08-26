@@ -1,0 +1,498 @@
+/*
+Theme Name: Art Auction 2015
+Template: responsive
+Author: Gerard Greenidge and Keira Dooley
+Version: 0.1
+Updated: 2015-01-26 20:28:11
+*/
+
+@charset "UTF-8";
+
+body {
+color: #7f7a77;
+background: #fff;
+font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.5em;
+}
+
+body {
+	background-image: url('http://artauction.lbma.org/wp-content/uploads/2015/01/bkg_texture_01.png');
+	background-repeat: repeat-x;
+	background-position: top left;
+	background-attachment: scroll;
+}
+.skip-container {
+display: block;
+position: relative;
+padding: 0;
+}
+
+#wrapper {
+clear: both;
+position: relative;
+margin: 0 auto 20px auto;
+padding: 0 50px 20px 50px;
+border: 0;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+background-color: #fff;
+}
+b, strong {
+font-weight: 600;
+}
+a {
+color:#8a3b96;
+font-weight: 400;
+text-decoration: underline;
+}
+a:hover {
+color: #f15a24;
+text-decoration: underline;
+}
+
+hr {
+background: #fff url(/assets/hr.png) repeat-x;
+min-height: 10px;
+}
+p, hr, dl, pre, form, table, address, blockquote {
+margin: 1em 0;
+}
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+font-weight: 400;
+line-height: 1.0em;
+word-wrap: break-word;
+}
+h1 {
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+font-size: 1.7em;
+text-transform: uppercase;
+}
+h2 {
+margin-top: 0.75em;
+margin-bottom: 0.75em;
+font-size: 1.5em;
+}
+h3 {
+margin-top: 0.857em;
+margin-bottom: 0.857em;
+font-size: 1.1em;
+font-weight: 600;
+}
+.front-page #wrapper {
+margin: 20px auto 0 auto;
+padding: 0;
+border: none;
+background-color: transparent;
+}
+
+#container {
+max-width: 1024px;
+margin: 0 auto;
+padding: 0;
+}
+
+.top-widget {
+float: right;
+clear: right;
+width: 20%;
+min-height: 157px;
+padding: 40px 3px 0 0;
+border: none;
+background: url(/assets/LBMA_ArtAuction2015_banner_03.png) bottom right no-repeat;
+text-align: center;
+line-height: 1em;
+}
+
+.top-widget .maxbutton {
+text-align: center;
+margin: auto;
+}
+
+.menu {
+clear: both;
+margin: 0 auto;
+background-color: #fff;
+background-image: none;
+}
+
+.menu a {
+display: block;
+position: relative;
+height: 45px;
+margin: 0;
+padding: 0 0.9em;
+border-left: 0;
+border-bottom: 3px solid #fff;
+color: #7f7a77;
+text-shadow: none;
+font-size: 15px;
+font-family: 'Source Sans Pro', Arial, sans-serif;
+font-weight: 400;
+line-height: 45px;
+white-space: nowrap;
+text-decoration: none;
+cursor: auto;
+}
+
+.menu a:hover {
+background-image: none;
+background: #fff;
+color: #672c73;
+border-bottom: 3px solid #8a3b96;
+}
+
+.front-page .menu .current_page_item a {
+background: none;
+background-color: #fff;
+background-image: none;
+filter: none;
+}
+
+.menu .current_page_item a, .menu .current-menu-item a {
+background-color: #fff;
+}
+
+#featured {
+width: 99.893617021277%;
+padding-bottom: 15px;
+border: 0;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+background-color: #fff;
+text-align: center;
+}
+
+.widget-wrapper {
+margin: 10px 0 10px 0;
+padding: 0;
+border: 0;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+background-color: #fff;
+}
+
+div#home_widget_1 {
+font-family: 'Source Sans Pro', Arial, sans-serif;
+font-weight: 300;
+font-size: 1.7em;
+text-align: center;
+/* line-height: 1.5em; */
+}
+
+div#home_widget_2, div#home_widget_3 {
+display: none;
+}
+
+#footer {
+clear: both;
+max-width: 1024px;
+margin: 0 auto;
+padding: 0;
+}
+#footer {
+font-size: 15px;
+line-height: 1.5em;
+}
+#footer a {
+color: #7f7a77;
+text-decoration: underline;
+}
+#footer-wrapper .grid.col-300 {
+margin: 0;
+width: 100%;
+text-align: center;
+}
+
+#footer-wrapper .widget-title h3, #footer-wrappert .widget-title-home h3 {
+text-align: center;
+}
+
+#text-4 .textwidget {
+  background: #C9D52B;
+  padding: 5px 0 5px 0;
+  font-size: 1.1em;
+  margin: 0;
+  color: #fff;
+  font-weight: 600;
+}
+
+.sponsorlevelbox {
+background: #672c73;
+padding: 10px 20px;
+color: #eee;
+margin-bottom:40px;
+}
+.sponsorlevelcontent_right {
+margin-left: 140px;
+}
+.sponsorlevelcontent_left {
+float: left;
+}
+.sponsorlevelbox h2 {
+text-transform: uppercase;
+color: #8a3b96;
+font-weight: 900;
+letter-spacing: .15em;
+text-align: center;
+font-size: 2.6em;
+margin-top: 10px;
+}
+.sponsorlevelbox h3 {
+text-transform: uppercase;
+font-size: 1.4em;
+font-weight: 600;
+}
+.sponsorlevelbox a {
+color: #eee;
+text-decoration: none;
+border-bottom: 1px dotted #eee;
+}
+.sponsorlevelbox a:hover {
+color:#f15a24;
+border-bottom: 0;
+}
+.spacer_06 {
+background: url(/assets/hr_06.png) repeat-x;
+min-height: 50px;
+}
+.spacer_05 {
+background: url(/assets/hr_06.png) repeat-x;
+min-height: 38px;
+}
+.spacer_04 {
+background: url(/assets/hr_06.png) repeat-x;
+min-height: 30px;
+}
+.spacer_03 {
+background: url(/assets/hr_06.png) repeat-x;
+min-height: 25px;
+}
+.spacer_02 {
+background: url(/assets/hr_02.png) repeat-x;
+min-height: 15px;
+}
+.spacer_01 {
+background: url(/assets/hr_01.png) repeat-x;
+min-height: 10px;
+}
+
+#content-full {
+margin-top: 0;
+margin-bottom: 10px;
+}
+
+/* Mobile CSS */
+@media screen and (max-width: 768px) {
+.js .main-nav {
+		clear: both;
+		position: relative;
+		margin: 0 auto;
+		background-color: #585858;
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#585858), to(#3d3d3d));
+		background-image: -webkit-linear-gradient(top, #585858, #3d3d3d);
+		background-image: -moz-linear-gradient(top, #585858, #3d3d3d);
+		background-image: -ms-linear-gradient(top, #585858, #3d3d3d);
+		background-image: -o-linear-gradient(top, #585858, #3d3d3d);
+		background-image: linear-gradient(top, #585858, #3d3d3d);
+
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#585858, endColorstr=#3d3d3d);
+	}
+
+	.js .main-nav .menu {
+		display: none;
+		position: absolute;
+		z-index: 1000;
+		top: 30px;
+		width: 100%;
+	}
+
+	.js .main-nav .menu ul {
+		margin-top: 1px;
+	}
+
+	.js .main-nav .menu li {
+		float: none;
+		border: none;
+		background-color: #fff;
+	}
+
+	.js .main-nav .menu li a {
+		height: 45px;
+		padding: 0 15px;
+		border: none;
+		border-bottom: 1px solid #f5f5f5;
+		color: #444;
+		text-shadow: none;
+		font-size: 13px;
+		font-weight: normal;
+		line-height: 45px;
+		text-align: left;
+		cursor: pointer;
+	}
+
+	.js .main-nav .menu li.current_page_item,
+	.js .menu .current_page_item a,
+	.js .menu .current-menu-item a {
+		background-color: #f5f5f5;
+	}
+
+	.js .main-nav .menu li li:hover {
+		background: none !important;
+	}
+
+	.js .main-nav .menu li li a {
+		position: relative;
+		padding: 0 10px 0 30px;
+	}
+
+	.js .main-nav .menu li li li a {
+		position: relative;
+		padding: 0 10px 0 40px;
+	}
+
+	.js .main-nav .menu li a:hover,
+	.js .main-nav .menu li li a:hover {
+		background-color: #f5f5f5 !important;
+		background-image: none;
+
+		filter: none;
+	}
+
+	.js .main-nav .menu li li a::before {
+		position: absolute;
+		top: 0;
+		left: 20px;
+		content: "\2013";
+	}
+
+	.js .main-nav .menu li li li a::before {
+		position: absolute;
+		top: 0;
+		left: 20px;
+		content: "\2013";
+	}
+
+	.js .main-nav .menu li li li a::after {
+		position: absolute;
+		top: 0;
+		left: 30px;
+		content: "\2013";
+	}
+
+	.js .main-nav .menu li ul {
+		visibility: visible;
+		position: static;
+		background-color: #fff;
+	}
+
+	.js .main-nav .menu ul {
+		min-width: 0;
+	}
+
+	.js .main-nav #responsive_current_menu_item {
+		display: block;
+		padding: 5px 40px 5px 10px;
+		color: #fff;
+		font-weight: 700;
+		cursor: pointer;
+	}
+
+	.js .main-nav a#responsive_menu_button {
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 100%;
+		width: 23px;
+		height: 30px;
+		margin-left: -30px;
+		background: url("/wp-content/themes/responsive/core/images/select-icons.png") 0 5px no-repeat;
+		cursor: pointer;
+	}
+
+	.js .main-nav a#responsive_menu_button.responsive-toggle-open {
+		background: url("/wp-content/themes/responsive/core/images/select-icons.png") 0 -46px no-repeat;
+	}
+
+	.top-menu,
+	.footer-menu li {
+		float: none;
+		font-size: 11px;
+		text-align: center;
+	}
+
+#logo {
+	float: none;
+	margin: 0;
+	}
+
+.top-widget {
+	float: none;
+	clear: none;
+	width: 100%;
+	padding: 20px 0;
+	border: none;
+	background: none;
+	text-align: center;
+	line-height: 1em;
+	}
+
+.sponsorlevelbox h2 {
+	font-size: 1.3em;
+	}
+
+#wrapper{
+	padding:10px;
+	}
+
+.sponsorlevelcontent_left {
+	float: none;
+	}
+.sponsorlevelcontent_right {
+	margin-left: 0;
+	}
+
+body {
+	background-image: none;
+	}
+}
+
+/*Auction Item Pages*/
+.regular-page img.attachment-post-thumbnail.wp-post-image {
+border: 1px solid #eee;
+}
+
+img.artwork-thumbnail.wp-post-image {
+padding: 0 10px;
+}
+
+.post-meta {
+display: none;
+}
+
+h1.artwork-title {
+text-transform: initial;
+text-align: center;
+}
+.artwork-details {
+text-align: center;
+line-height: 0.8em;
+}
+
+#content-archive div {
+float: left;
+text-align: center;
+}
+
+.cat_artistname {
+clear: both;
+text-align: center;
+width: 100%;
+margin-top: -10px;
+font-size: .9em;
+}
+
